@@ -1,0 +1,19 @@
+================================================================================
+Open Jira shorthands                                            *open-jira.nvim*
+
+M.setup({config})                                         *open-jira.nvim.setup*
+
+    Parameters: ~
+        {config}  (table)  user config
+
+    Usage: ~
+        >
+            -- Default config
+            require('open').setup {
+                -- string|function(shorthand: string): string
+                url = 'https://jira.atlassian.com/browse/'
+            }
+        <
+
+
+vim:tw=78:ts=8:noet:ft=help:norl:
