@@ -10,7 +10,7 @@ use 'ofirgall/open-jira.nvim'
 ## Usage
 ```lua
 -- Leave empty for default values
-require('jira-open').setup {
+require('open-jira').setup {
     -- string|function(shorthand: string): string
     url = 'https://jira.atlassian.com/browse/'
 }
